@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root{
+    font-family: "Outfit", sans-serif;
+    color: white;
+}
+
+button{
+    background-color: white;
+    color: black;
+    padding:  0.5rem 1.25rem;
+    border-radius: 50vh;
+    cursor: pointer;
+}
