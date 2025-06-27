@@ -6,12 +6,12 @@
 }
 
 button{
-    background-color: white;
     color: black;
     padding:  0.7rem 1.50rem;
     border-radius: 50vh;
     cursor: pointer;
     font-weight: lighter;
+    align-items: center;
 }
 
 .caption{
