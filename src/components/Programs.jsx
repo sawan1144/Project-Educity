@@ -8,17 +8,34 @@ import post_icon from '../assets/program-icon-3.png'
 
 const Programs = () => {
   return (
-    <div className='w-full flex flex-col items-center justify-center gap-7 text-black'>
-        <div className='flex flex-col gap-2 py-12 text-center'>
-            <p>OUR PROGRAM</p>
-            <h1 className='text-4xl font-bold'>What We Offer</h1>
-        </div>
-        <div className='flex gap-10 h-85 w-90 items-center justify-center mb-40'>
-            <img src={grad} className='!rounded-xl'/>
-            <img src={masters} className='!rounded-xl'/>
-            <img src={post_grad} className='!rounded-xl'/>
-        </div>
+    <div>       
+        <div className='flex gap-10 items-center justify-center mb-30'>
 
+          <div className='card relative h-85 w-85'>
+            <img src={grad} className='object-cover !rounded-xl'/>
+            <div className='caption'>
+              <img src={grad_icon}/>
+              <p>Graduation Deegree</p>
+            </div>
+          </div>
+
+          <div className='card relative h-85 w-85'>
+            <img src={masters} className='object-cover !rounded-xl'/>
+            <div className='caption'>
+              <img src={masters_icon}/>
+              <p>Masters Deegree</p>
+            </div>
+          </div>
+
+          <div className='card relative h-85 w-85'>
+            <img src={post_grad} className='object-cover !rounded-xl'/>
+            <div className='caption'>
+              <img src={post_icon}/>
+              <p>Post Gradution</p>
+            </div>
+          </div>
+
+        </div>
     </div>
   )
 }
