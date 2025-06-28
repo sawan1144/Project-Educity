@@ -4,7 +4,7 @@ import play_icon from '../assets/play-icon.png'
 
 const About = () => {
   return (
-    <div className='w-full justify-center items-center flex gap-10 mb-10'>
+    <div className='w-full justify-center items-center flex gap-10 mb-5 mt-18'>
         <div className='w-110 h-110 relative'>
             <img src={about} className='!rounded-xl object-cover'/>
             <img src={play_icon} className='absolute inset-45 h-15'/>

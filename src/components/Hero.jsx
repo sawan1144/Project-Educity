@@ -4,8 +4,8 @@ import dark_arrow from '../assets/dark-arrow.png'
 
 const Hero = () => {
     return (
-        <div className='relative w-full h-screen'>
-            <img className='w-full h-full object-cover' src={hero} alt=""/>
+        <div className='relative w-screen h-screen'>
+            <img className='h-screen w-screen object-cover' src={hero} alt=""/>
             <div class="absolute inset-0 bg-indigo-700/45"></div>
             <div class="absolute inset-0 bg-black/60"></div>
             
